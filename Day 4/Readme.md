@@ -5,7 +5,7 @@ Chef embarks on a journey starting from a town named
 �
 S, containing a string of 
 8
-8 uppercase English alphabets. His objective is to reach the destination known as CODETOWN.
+8 uppercase English alphabets.His objective is to reach the destination known as CODETOWN.
 
 If Chef is currently in town 
 �
