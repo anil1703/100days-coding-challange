@@ -17,7 +17,7 @@ Each test case consists of multiple lines of input.
 The first line of each test case contains an integer 
 �
 N — the number of days.
-The second line of each test case contains 
+The second line of each test case contains.
 �
 N space-separated integers, the 
 �
