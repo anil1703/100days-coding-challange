@@ -15,5 +15,5 @@ class Solution:
             ans+=l
         return ans
 """
-https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/solutions/4939830/sliding-window-vs-combinatorical-formula-59ms-beats-100/
+LINK ---https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/solutions/4939830/sliding-window-vs-combinatorical-formula-59ms-beats-100/
 """
