@@ -1,4 +1,4 @@
-class Solution:
+##
     def makeGood(self, s: str) -> str:
         stack = []  
         for char in s:
