@@ -1,21 +1,18 @@
 class Solution:
-    def sortColors(self, nums: List[int]) -> None:
-        """
-        Do not return anything, modify nums in-place instead.
-        """
-        a = set(nums)
-        b = list(a)
-        for i in b:
-            A =nums.count(i)
-            for j in range(A):
-                nums.remove(i)
-                nums += [i]
-        
-            
+    def minIncrementForUnique(self, nums: List[int]) -> int:
+        min_increments = 0
 
-        
+        nums.sort()
 
+        for i in range(1, len(nums)):
+            # Ensure each element is greater than its previous
+            if nums[i] <= nums[i - 1]:
+                # Add the required increment to minIncrements
+                increment = nums[i - 1] + 1 - nums[i]
+                min_increments += increment
 
-                
+                # Set the element to be greater than its previous
+                nums[i] = nums[i - 1] + 1
 
-        
+        return min_increments
+#https://leetcode.com/problems/minimum-increment-to-make-array-unique/submissions/
