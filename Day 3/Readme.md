@@ -24,7 +24,7 @@ N space-separated integers, the
 �
 ℎ
 i 
-th
+the 
   of which is 
 �
 �
