@@ -7,7 +7,7 @@ We say that a word is hard to pronounce if it contains
 
 You are given a string 
 �
-S consisting of 
+S consisting of ##
 �
 N lowercase Latin characters. Determine whether it is easy to pronounce or not based on the rule above — print YES if it is easy to pronounce and NO otherwise.
 
