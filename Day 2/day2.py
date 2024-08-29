@@ -17,8 +17,12 @@ for i in range(T):
         if count > 2:
             valid = False
             break
+
     
     if valid:
         print("Yes")
     else:
         print("No")
+
+
+#
